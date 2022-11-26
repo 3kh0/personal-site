@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* This is were CSS would go IF I HAD ANY!!!!! */
+    </style>
+    <link rel="icon" sizes="192x192" href="./favicon.ico" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon" />
+    <meta content="https://3kh0.github.io/" property="og:url" />
+    <meta content="/favicon.ico" property="og:image" />
+    <meta content="#00FF00" data-react-helmet="true" name="theme-color" />
+    <meta name="title" content="404 Error!" />
+    <meta name="description" content="Woah there! Thats a 404 error. You might have typed the URL wrong!" />
+    <meta name="keywords" content="games, ad blocker, trolls, unblocked games, web games, online games, fun, tags" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="3kh0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width" />
+    <title>Error 404 (Not Found)!!1</title>
+  </head>
+  <body>
+    <!--Nav bar-->
+    <div>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+      <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="navbar-header">
+                <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="./index.html" class="navbar-brand">3kh0</a>
+              </div>
+
+              <div class="navbar-collapse collapse" id="mobile_menu">
+                <ul class="nav navbar-nav">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./aboutme.html">About</a></li>
+                  <li><a href="./socials.html">Social pages</a></li>
+                  <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cool Stuff <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Cool video</a></li>
+                      <li><a href="https://discord.gg/wv6huJAwEv">Discord Server</a></li>
+                      <li><a href="./404.html">404 page</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="https://github.com/3kh0"><span class="glyphicon glyphicon-user"></span> GitHub Profile</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+    <!--End nav bar-->
+    <h1>404 Error</h1>
+
+    <p>
+      The requested URL or file was not found on this server. <br />
+      That’s all we know.
+    </p>
+    <p>You could try...</p>
+    <ul>
+      <li>Going to the <a href="/">homepage</a>.</li>
+      <li>Rechecking the URL.</li>
+      <li>Going to the GitHub repo.</li>
+      <li>Open a issue on the site repo.</li>
+      <li>Asking on the <a href="https://discord.gg/wv6huJAwEv">discord server</a>.</li>
+      <li>Watch this <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">helpful video</a>.</li>
+    </ul>
+    <h2>Stats for nerds</h2>
+    Requested URL: <code id="full"></code><br />
+    Requested file path: <code id="path"></code><br />
+    Error code: <code id="error"></code><br />
+    Host name: <code id="host"></code><br />
+    Protocal used: <code id="proto"></code><br />
+
+    <script>
+      document.getElementById("full").innerHTML = window.location.href;
+      document.getElementById("path").innerHTML = window.location.pathname;
+      document.getElementById("error").innerHTML = "404";
+      document.getElementById("host").innerHTML = window.location.hostname;
+      document.getElementById("proto").innerHTML = window.location.protocol;
+    </script>
+  </body>
+</html>
